@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css cdn start here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css cdn end here -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- quiz app section start here -->
+    <div id="startQuiz">
+        <div class="img">
+            <img src="image/image1.svg" alt="">
+        </div>
+        <div class="text">
+            <h3>কুইজ অ্যাপ (Quiz App) এর বৈশিষ্ট্যাবলী</h3>
+            <p>প্রতিটি কুইজের জন্য একটি নির্দিষ্ট সময়সীমা নির্ধারণ করা থাকবে। উদাহরণস্বরূপ, ১০টি প্রশ্নের কুইজের জন্য ১০ মিনিটের সময়সীমা দেওয়া হবে।ব্যবহারকারীরা বিভিন্ন বিষয়ে কুইজ নিতে পারবে, যেমন বিজ্ঞান, গণিত, সাধারণ জ্ঞান, ইতিহাস, ভূগোল ইত্যাদি।অ্যাপে একটি বড় প্রশ্ন ব্যাংক থাকবে, যেখান থেকে প্রতিবার নতুন নতুন প্রশ্ন উঠে আসবে।সময় শেষ হওয়ার সাথে সাথেই ব্যবহারকারী তার ফলাফল দেখতে পারবে। ফলাফলে সঠিক ও ভুল উত্তরের সংখ্যা এবং প্রাপ্ত স্কোর দেখানো হবে।প্রতিযোগিতামূলক মনোভাব বৃদ্ধির জন্য একটি লিডারবোর্ড থাকবে, যেখানে সর্বোচ্চ স্কোরকারী ব্যবহারকারীদের নাম এবং স্কোর প্রদর্শিত হবে।প্রতিটি কুইজের শেষে ব্যবহারকারী তার উত্তরগুলোর বিশ্লেষণ দেখতে পারবে, যেখানে কোন কোন উত্তর ভুল হয়েছে এবং সঠিক উত্তর কি ছিল তা জানানো হবে।</p>
+        </div>
+
+        <div id="button3">
+            <button>Start Quiz</button>
+        </div>
+    </div> 
+
+    <!-- quiz app section end here -->
+
+    <!-- quiz rules section start here -->
+    <div id="quiz_rule">
+        <div class="text">
+            <h2>কুইজের নিয়মাবলী</h2>
+        </div>
+        <div class="quiz-list">
+            <li>
+                
+                <ol><span>১.নির্ধারিত সময়:</span> প্রতিটি কুইজের জন্য নির্ধারিত সময়সীমা রয়েছে।১০টি প্রশ্নের কুইজের জন্য ১০ মিনিটের সময়সীমা দেওয়া হবে। সময়সীমা শেষ হলে কুইজ স্বয়ংক্রিয়ভাবে বন্ধ হয়ে যাবে এবং তখন পর্যন্ত দেওয়া উত্তরগুলোর ভিত্তিতে ফলাফল নির্ধারিত হবে।</ol>
+                <ol><span>২.একবারে এক কুইজ:</span> একই সময়ে একাধিক কুইজ নেওয়া যাবে না। একবারে একটি কুইজ শেষ করতে হবে।</ol>
+                <ol><span>৩.ইন্টারনেট সংযোগ:</span> কুইজ নিতে হলে ইন্টারনেট সংযোগ নিশ্চিত করতে হবে। ইন্টারনেট সংযোগ বিচ্ছিন্ন হলে কুইজ বন্ধ হয়ে যেতে পারে এবং ফলাফল রেকর্ড নাও হতে পারে।</ol>
+                <ol><span>৪.প্রশ্ন পরিবর্তন:</span> একবার কুইজ শুরু হলে প্রশ্ন পরিবর্তন করা যাবে না।</ol>
+                <ol><span>৫.প্রতারণা নিষিদ্ধ: </span>কুইজের সময় কোনো ধরনের প্রতারণার আশ্রয় নেওয়া যাবে না। এটি ব্যবহারকারীর অ্যাকাউন্ট বাতিলের কারণ হতে পারে।</ol>
+                <ol><span>৬.প্রশ্নের ধরণ: </span>প্রতিটি কুইজে একাধিক পছন্দের (multiple choice) প্রশ্ন থাকবে। সঠিক উত্তর নির্বাচন করতে হবে।</ol>
+                <ol><span>৭.একবারের উত্তর:</span> প্রতিটি প্রশ্নের জন্য একবারই উত্তর দেওয়া যাবে। উত্তর একবার জমা হলে তা আর পরিবর্তন করা যাবে না।</ol>
+                <ol><span>৮.ফলাফল চূড়ান্ত: </span>কুইজ শেষে প্রদর্শিত ফলাফল চূড়ান্ত হবে এবং তা আর পরিবর্তন করা যাবে না।</ol>
+                <ol><span>৯.লিডারবোর্ড:</span> কুইজে অংশগ্রহণকারীদের মধ্যে যারা সর্বোচ্চ স্কোর করবেন তাদের নাম লিডারবোর্ডে প্রদর্শিত হবে।</ol>
+            </li>
+        </div>
+        <div id="buttons">
+            <button class="btn1">Exit Quiz</button>
+            <button class="btn2">Continue</button>
+        </div>
+
+        </div>  
+
+    
+
+    <!-- quiz rule section end here -->
+
+    <!-- question section start here -->
+    <div id="question_group">
+        <header class="header_question">
+            <div class="start_question">Start Exam</div>
+            <div class="time">
+                <div class="time_off">Time Off</div>
+                <div class="second">15</div>
+            </div>
+            <div class="time_line"></div>
+
+        </header>
+
+        <div id="section">
+            <div class="text1">
+               <!-- <span>প্রশ্ন ১: রবীন্দ্রনাথ ঠাকুরের জন্ম সাল কত? </span>-->
+            </div>
+            
+                <div class="questions_options"></div>
+                </div>
+              <footer>
+                <div id="total_question">
+                    <!-- <span>1 Of 10 Questions</span> -->
+                </div>
+                <button class="next_btn">Next Question</button>
+              </footer>
+        </div>
+
+        
+    </div> 
+
+
+    <div class="finalResult">
+        <div class="resultImage">
+            <img src="image/wining.png" alt="">
+        </div>
+
+        <div class="imgTex1">You Have Finished This Exam</div>
+
+        <div class="resultScore">
+            <!-- <span >You Got <p class="point_1">0</p> Out Of <p class="point_2">0</p></span> -->
+            
+        </div>
+
+        <div class="buttons00">
+            <button class="btn01">RePlay</button>
+            <button class="btn02">Quit Quiz</button>
+
+        </div>
+    </div>
+    
+   
+   
+    <!-- question section end here -->
+    <script src="wquiz.js"></script>
+    <script src="question.js"></script>
+</body>
+</html>
